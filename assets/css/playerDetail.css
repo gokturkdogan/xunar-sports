@@ -458,3 +458,19 @@ hr {
         padding: 10px;
     }
 }
+
+.-soon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.-soon i {
+    font-size: 100px;
+}
+
+.-soon span {
+    text-align: center;
+    margin-top: 20px;
+}
