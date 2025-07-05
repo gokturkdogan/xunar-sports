@@ -1,0 +1,283 @@
+.facility {
+    padding: 20vh 20vw;
+}
+
+.facility__knowledge {
+    display: flex;
+    justify-content: space-between;
+}
+
+.facility__info {
+    width: 65%;
+}
+
+.facility__header {
+    border-left: 5px solid #36AD79;
+}
+
+.facility__headerTitle {
+    font-weight: 500;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    margin-left: 20px;
+}
+
+hr {
+    margin-top: 2vh;
+}
+
+.facility__infoContent {
+    background-color: white;
+    border: 1px solid #E1E1E1;
+    margin-top: 2vh;
+    display: flex;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.facility__infoContent img{
+    width: 55%;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.facility__infoContentStats {
+    width: 35%;
+}
+
+.facility__infoContentStatsRow {
+    margin-top: 2vh;
+}
+
+.facility__infoContentBold {
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    line-height: 1;
+    color: #343a40;
+}
+
+.facility__infoContentRegular {
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    line-height: 1;
+    color: #35ad79;
+    margin-left: 20px;
+}
+
+.facility__infoContentRegular i{
+    font-size: 1.5rem;
+}
+
+.facility__infoContentStars {
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    line-height: 1;
+    color: #d6b10c;
+    margin-left: 20px;
+    font-size: 1.3rem;
+}
+
+.facility__location {
+    width: 32%;
+}
+
+.facility__locationContent {
+    background-color: white;
+    border: 1px solid #E1E1E1;
+    margin-top: 2vh;
+    display: flex;
+    padding: 10px;
+}
+
+.facility__matches {
+    margin-top: 5vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.facility__matchesPlayed {
+    width: 65%;
+}
+
+.facility__matchesPlayedContent {
+    background-color: white;
+    border: 1px solid #E1E1E1;
+    margin-top: 2vh;
+}
+
+.facility__matchesPlayedContentHeading {
+    background-color: #35ad79;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 60px;
+}
+
+.facility__matchesPlayedHeadSpan {
+    width: 15%;
+}
+
+.facility__matchesPlayedContentItem {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 60px;
+}
+
+.facility__matchesPlayedItemSpan {
+    text-decoration: none;
+    width: 15%;
+}
+
+.--link {
+    color: #367BFF;
+    transition: 0.5s;
+    font-weight: 500;
+}
+
+.--link:hover{
+    color: #237251;
+}
+
+.facility__matchesGoalKing {
+    width: 32%;
+}
+
+.facility__matchesGoalKingContent {
+    background-color: white;
+    border: 1px solid #E1E1E1;
+    margin-top: 2vh;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.facility__matchesGoalKingContent a{
+    width: 35%;
+}
+
+.facility__matchesGoalKingContent a:hover img{
+    opacity: 70%;
+}
+
+.facility__matchesGoalKingContent a img{
+    width: 100%;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.facility__matchesGoalKingContentStats {
+    width: 60%;
+}
+
+.facility__calatog {
+    margin-top: 5vh;
+}
+
+.facility__calatogContent {
+    background-color: white;
+    border: 1px solid #E1E1E1;
+    margin-top: 2vh;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 400px;
+}
+
+.panel {
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    flex: 0.5;
+    cursor: pointer;
+    height: 40vh;
+    position: relative;
+    margin: 10px;
+    transition: flex 0.7s cubic-bezier(0.05, 0.6, 0.4, 0.9);
+    transition: 0.5s;
+    border-radius: 50px;
+    border: 1px solid black;
+}
+
+.panel:hover {
+    opacity: 70%;
+}
+
+.panel.active {
+    flex: 5;
+}
+
+.panel.active h3 {
+    opacity: 1;
+    transition: opacity 0.3s ease-in 0.4s;
+}
+
+@media screen and (max-width: 767px) {
+    .facility {
+        width: 94%;
+        padding: 15vh 0;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    .facility__knowledge {
+        flex-direction: column;
+    }
+    
+    .facility__info {
+        width: 100%;
+    }
+
+    .facility__infoContent {
+        padding: 10px;
+        flex-direction: column;
+    }
+
+    .facility__infoContent img{
+        width: 100%;
+    }
+
+    .facility__infoContentStats {
+        width: 100%;
+    }
+
+    .facility__location {
+        margin-top: 5vh;
+        width: 100%;
+    }
+
+    .facility__matches {
+        flex-direction: column;
+    }
+
+    .facility__matchesPlayed {
+        width: 100%;
+    }
+
+    .facility__matchesPlayedContentHeading {
+        padding: 10px;
+    }
+
+    .facility__matchesPlayedContentItem {
+        padding: 10px;
+    }
+
+    .facility__matchesGoalKing {
+        margin-top: 5vh;
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    .container {
+        width: 100%;
+        flex-direction: column;
+    }
+    .panel:hover {
+        opacity: 100%;
+    }
+}

@@ -1,0 +1,279 @@
+.players {
+    padding: 20vh 20vw;
+}
+
+.players__header {
+    border-left: 5px solid #36AD79;
+}
+
+.players__headerTitle {
+    font-weight: 500;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    margin-left: 20px;
+}
+
+hr {
+    margin-top: 2vh;
+}
+
+.players__search {
+    margin-top: 2vh;
+    background-color: #36AD79;
+    color: white;
+    width: max-content;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.players__search:hover {
+    background-color: black
+}
+
+.players__search input {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.2rem;
+    margin-left: 10px;
+    width: 85%;
+}
+
+.players__search input::placeholder {
+    color: white;
+}
+
+.players__search input:focus {
+    outline: none;
+}
+
+.players__table {
+    background-color: white;
+    margin-top: 3vh;
+    border: 1px solid #E1E1E1;
+}
+
+.players__heading {
+    border-bottom: 1px solid #E1E1E1;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px;
+}
+
+.players__headLeft {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.players__headSpan {
+    margin-left: 50px;
+}
+
+.players__headSpanss {
+    margin-right: 15px;
+}
+
+.players__headSpans {
+    margin-right: 50px;
+}
+
+.players__photoNone {
+    width: 70px;
+    height: 70px;
+    opacity: 0%;
+    margin-left: 50px;
+}
+
+.players__headRight {
+    display: flex;
+}
+
+.players__item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px;
+    border-bottom: 1px solid #E1E1E1;
+    transition: 0.5s;
+}
+
+.players__item:hover {
+    background-color: #eeecec;
+}
+
+.players__itemLeft {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.players__span {
+    margin-left: 50px;
+    color: #36AD79;
+    font-weight: 600;
+}
+
+.players__foot {
+    width: 40px;
+    height: 40px;
+    margin-left: 50px;
+}
+
+.players__photo {
+    width: 100px;
+    height: 100px;
+    margin-left: 50px;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+
+.players__photo:hover {
+    opacity: 70%;
+}
+
+.players__name {
+    margin-left: 50px;
+    text-decoration: none;
+    color: #367BFF;
+    transition: 0.5s;
+    font-weight: 500;
+}
+
+.players__name:hover {
+    color: #237251;
+}
+
+.players__itemRight {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.players__position {
+    margin-left: 50px;
+}
+
+.players__age {
+    margin-left: 50px;
+}
+
+.players__rating {
+    margin-left: 50px;
+    color: #d6b10c;
+}
+
+@media screen and (max-width: 767px) {
+    .players {
+        width: 94%;
+        padding: 100px 0;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .players__headerTitle {
+        font-size: 1rem;
+        letter-spacing: 2px;
+    }
+
+    .players__search {
+        width: 94%;
+    }
+
+    .players__search input {
+        font-size: 0.8rem;
+        width: 80%;
+    }
+
+    .players__heading {
+        border-bottom: 1px solid #E1E1E1;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+    }
+
+    .players__table {
+        font-size: 0.7rem;
+    }
+
+    .players__headSpan {
+        margin: 0;
+        margin-right: 15px;
+    }
+
+    .players__headSpanss {
+        margin: 0;
+    }
+
+    .players__headSpans {
+        margin: 0;
+    }
+
+    .players__photoNone {
+        margin: 0;
+        height: 40px;
+        width: 40px;
+    }
+
+    .players__headRight {
+        display: flex;
+        justify-content: space-between;
+        width: 49%;
+    }
+
+    .players__headLeft {
+        display: flex;
+        justify-content: space-between;
+        width: 49%;
+    }
+
+    .players__item {
+        padding: 10px;
+        justify-content: space-between;
+    }
+
+    .players__item:hover {
+        background-color: #eeecec;
+    }
+
+    .players__itemLeft {
+        width: 49%;
+        justify-content: space-between;
+    }
+
+    .players__itemRight {
+        width: 49%;
+        justify-content: space-between;
+    }
+
+    .players__span {
+        margin: 0;
+    }
+
+    .players__foot {
+        margin: 0;
+        width: 30px;
+        height: 30px;
+    }
+
+    .players__photo {
+        width: 40px;
+        height: 40px;
+        margin-left: 0;
+        transition: 0.5s;
+    }
+
+    .players__name {
+        margin: 0;
+        width: 40%;
+    }
+
+    .players__position {
+        margin: 0;
+    }
+
+    .players__age {
+        margin: 0;
+    }
+
+    .players__rating {
+        margin: 0;
+    }
+}

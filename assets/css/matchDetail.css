@@ -1,0 +1,352 @@
+.matchDetail {
+    padding: 20vh 20vw;
+}
+
+.matchDetail__header {
+    border-left: 5px solid #36AD79;
+}
+
+.matchDetail__headerTitle {
+    font-weight: 500;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    margin-left: 20px;
+}
+
+hr {
+    margin-top: 2vh;
+}
+
+.matchDetail__match {
+    display: flex;
+    justify-content: space-between;
+}
+
+.matchDeail__matchView {
+    width: 50%;
+}
+
+.matchDetail__matchViewContent {
+    margin-top: 0;
+    background-color: white;
+    border: 1px solid #E1E1E1;
+    text-align: center;
+    padding: 40px;
+}
+
+.matchDetail__matchViewField {
+    border: 1px solid black;
+    background-image: url("../images/staticPhotos/fieldKroki.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.matchDetail__matchViewTeams {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.matchDetail__matchViewTeamsRow {
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+}
+
+.--middle {
+    justify-content: center;
+}
+
+.--even {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.matchDetail__matchViewTeamsRow a {
+    display: flex;
+    flex-direction: column;
+    color: black;
+    text-decoration: none;
+    font-weight: 800;
+    transition: 0.5s;
+}
+
+.matchDetail__matchViewTeamsRow a:hover {
+    color: rgb(189, 182, 182);
+}
+
+.matchDetail__matchViewTeamsRow a:hover .fa-user {
+    color: rgb(189, 182, 182);
+    font-size: 4.5rem;
+}
+
+.fa-user {
+    font-size: 4rem;
+    transition: 0.5s;
+}
+
+.--teamOne {
+    color: red;
+}
+
+.--teamTwo {
+    color: white;
+}
+
+.--coach {
+    color: rgb(88, 88, 88);
+}
+
+.matchDetail__matchViewContent img {
+    width: 25vw;
+    border: 5px solid black;
+    border-radius: 50px;
+    transition: 0.5s;
+}
+
+.matchDetail__matchViewContent img:hover {
+    border: 5px solid #36AD79;
+}
+
+.matchDetail__roaster {
+    width: 40%;
+}
+
+
+.matchDetail__facilityContent {
+    margin-top: 5vh;
+    background-color: white;
+    border: 1px solid #E1E1E1;
+    padding: 20px;
+    text-align: center;
+}
+
+.matchDetail__facilityContent a {
+    text-decoration: none;
+}
+
+.matchDetail__facilityContent a:hover .matchDetail__facilityContentSpan {
+    color: #237251;
+}
+
+.matchDetail__facilityContentSpan {
+    color: #36AD79;
+    transition: 0.5s;
+}
+
+.matchDeail__squad {
+    margin-top: 5vh;
+}
+
+.matchDetail__squadContent {
+    margin-top: 5vh;
+    background-color: white;
+    border: 1px solid #E1E1E1;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.matchDetail__squadContentTeam {
+    width: 45%;
+}
+
+.matchDetail__squadContentTeamHead {
+    text-align: center;
+}
+
+.matchDetail__squadTeamHead {
+    color: #36AD79;
+    margin: auto;
+}
+
+.matchDetail__squadContentTeamItem {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2vh;
+}
+
+.matchDetail__squadContentTeamItem a {
+    text-decoration: none;
+    color: #367BFF;
+    transition: 0.5s;
+    font-weight: 500;
+}
+
+.matchDetail__squadContentTeamItem a:hover {
+    color: #237251;
+    font-size: 1.05rem;
+}
+
+.fa-star {
+    font-size: 0.8rem;
+    color: #d6b10c;
+}
+
+.matchDetail__scores {
+    margin-top: 5vh;
+}
+
+.matchDetail__scoresContent {
+    margin-top: 5vh;
+    background-color: white;
+    border: 1px solid #E1E1E1;
+    padding: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.matchDetail__scoresContent img {
+    width: 25vw;
+}
+
+.matchDetail__scoreBoard {
+    border: 1px solid black;
+    width: 25vw;
+    height: 24vh;
+    background-image: url("../images/staticPhotos/scoreboard.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.matchDetail__scoreBoardContent {
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    padding: 3vh 2vw;
+}
+
+.matchDetail__scoreBoardScore {
+    font-size: 5rem;
+}
+
+.matchDetail__scoresContentGoals {
+    width: 40%;
+}
+
+.matchDetail__scoresContentGoalsItem {
+    display: flex;
+    width: max-content;
+    margin-top: 1vh;
+    width: 100%;
+}
+
+.matchDetail__scoresContentGoalsItem a {
+    text-decoration: none;
+    color: #367BFF;
+    transition: 0.5s;
+    font-weight: 500;
+    width: 25%;
+}
+
+.matchDetail__scoresContentGoalsItem a:hover {
+    color: #237251;
+}
+
+.matchDetail__scoresContentGoalsItemStars {
+    margin-left: 2vw;
+}
+
+.--timeIcon {
+    color: black;
+    margin-left: 20px;
+}
+
+@media screen and (max-width: 767px) {
+    .matchDetail {
+        padding: 15vh 5vw;
+    }
+
+    .matchDetail__match {
+        flex-direction: column;
+    }
+
+    .matchDeail__matchView {
+        width: 100%;
+    }
+
+    .matchDetail__matchViewContent {
+        padding: 0px;
+    }
+
+    .matchDetail__matchViewField {
+        border: 1px solid black;
+        height: 60vh;
+    }
+
+    .fa-user {
+        font-size: 2rem;
+    }
+
+    .matchDetail__matchViewTeamsRow a:hover .fa-user {
+        font-size: 2.5rem;
+    }
+
+    .matchDetail__roaster {
+        margin-top: 5vh;
+        width: 100%;
+    }
+
+    .matchDetail__squadContentTeamItem {
+        font-size: 0.7rem;
+    }
+
+    .matchDetail__squadContentTeamItem a:hover {
+        color: #237251;
+        font-size: 0.7rem;
+    }
+
+    .fa-star {
+        font-size: 0.7rem;
+        color: #d6b10c;
+    }
+
+    .matchDetail__scoresContent {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .matchDetail__scoreBoard {
+        width: 100%;
+        height: 18vh;
+    }
+
+    .matchDetail__scoreBoardContent {
+        padding: 3vh 8vw;
+    }
+
+    .matchDetail__scoreBoardScore {
+        font-size: 3rem;
+    }
+
+    .matchDetail__scoresContentGoals {
+        width: 100%;
+        margin-top: 2vh;
+    }
+
+    .matchDetail__scoresContentGoalsItemStars {
+        margin-left: 10vw;
+    }
+
+}
+
+.matchDetail__coach {
+    display: flex;
+    margin: 20px 0;
+    align-items: center;
+}
+
+.matchDetail__coach i{
+    margin-right: 10px;
+}

@@ -1,0 +1,264 @@
+.home {
+    display: flex;
+    justify-content: space-between;
+    padding: 20vh 20vw;
+}
+
+.home__content {
+    width: 68%;
+}
+
+.home__header {
+    border-left: 5px solid #36AD79;
+}
+
+.home__headerTitle {
+    font-weight: 500;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    margin-left: 20px;
+}
+
+hr {
+    margin-top: 2vh;
+}
+
+.home__boxes {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+
+.home__box {
+    background-color: white;
+    border: 1px solid #E1E1E1;
+    width: 48%;
+}
+
+.home__box p {
+    padding: 30px 50px;
+    color: #9496a3;
+}
+
+.home__boxRow {
+    display: flex;
+}
+
+.home__smallBox {
+    padding: 15px;
+    border: 1px solid #E1E1E1;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.home__count {
+    margin: auto;
+    color: black;
+    font-size: 3.5rem;
+    font-weight: 200;
+}
+
+.home__boxLink {
+    background-color: #FCEE57;
+    width: fit-content;
+    text-decoration: none;
+    margin: auto;
+    padding: 0 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: 0.5s;
+}
+
+.home__boxLink:hover {
+    background: none;
+}
+
+.home__trends {
+    margin-top: 3vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.home__trendBar {
+    width: 48%;
+    border: 1px solid #E1E1E1;
+    height: fit-content;
+}
+
+.home__trendHeader {
+    background-color: #36AD79;
+    text-align: center;
+    padding: 20px;
+}
+
+.home__trendHeaderLink {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    background-color: #FCEE57;
+    padding: 5px 50px;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    transition: 0.5s;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.home__trendHeaderLink:hover {
+    background: none;
+}
+
+.home__trendBody {
+    background-color: white;
+}
+
+.home__trendItem {
+    padding: 5px 100px 5px 40px;
+    border-bottom: 1px solid #E1E1E1;
+    transition: 0.5s;
+}
+
+.home__trendItem:hover {
+    background-color: #E1E1E1;
+}
+
+.home__trendItemLink {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    color: #367BFF;
+    transition: 0.5s;
+}
+
+.home__trendItemLink:hover .home__trendPhoto {
+    opacity: 70%;
+    width: 100px;
+    height: 100px;
+}
+
+.home__trendItemLink:hover .home__trendMatchPhoto {
+    opacity: 70%;
+}
+
+.home__trendItemLink:hover .home__trendName {
+    color: #237251;
+}
+
+.home__trendNumber {
+    color: #36AD79;
+    font-weight: 700;
+    font-size: 1rem;
+    margin-top: 20px;
+}
+
+.home__trendPhoto {
+    width: 80px;
+    height: 80px;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+
+.home__trendMatchPhoto {
+    width: 100px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.home__trendName {
+    margin-top: 20px;
+    font-size: 0.8rem;
+    font-weight: 700;
+    transition: 0.5s;
+    width: 100px;
+}
+
+.home__sideBar {
+    width: 28%;
+}
+
+.home__sideBody {
+    background-color: white;
+    border: 1px solid #E1E1E1;
+    margin-top: 3vh;
+}
+
+.home__sideItem {
+    border-bottom: 1px solid #E1E1E1;
+    padding: 20px;
+    transition: 0.5s;
+}
+
+.home__sideItem:hover {
+    background-color: #E1E1E1;
+}
+
+.home__facilityLink {
+    text-decoration: none;
+    transition: 0.5s;
+    color: #367BFF;
+    display: flex;
+}
+
+.home__facilityLink:hover .home__facilityPhoto {
+    opacity: 70%;
+}
+
+.home__facilityLink:hover .home__facilityName {
+    color: #237251;
+}
+
+.home__facilityPhoto {
+    width: 150px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.home__facilityName {
+    font-size: 1.2rem;
+    transition: 0.5s;
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+@media screen and (max-width: 767px) {
+    .home {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .home__content {
+        width: 100%;
+    }
+
+    .home__boxes {
+        flex-direction: column;
+        margin-top: 0;
+    }
+
+    .home__box {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .home__box p {
+        padding: 50px 30px;
+    }
+
+    .home__trends {
+        flex-direction: column;
+    }
+
+    .home__trendBar {
+        width: 100%;
+        margin-top: 3vh;
+    }
+
+    .home__sideBar {
+        width: 100%;
+        margin-top: 40px;
+    }
+}

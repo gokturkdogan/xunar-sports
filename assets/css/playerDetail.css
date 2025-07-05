@@ -1,0 +1,460 @@
+.playerDeatil {
+    padding: 20vh 20vw;
+}
+
+.playerDetail__player {
+    display: flex;
+    justify-content: space-between;
+}
+
+.playerDetail__info {
+    width: 60%;
+}
+
+.playerDetail__header {
+    border-left: 5px solid #36AD79;
+}
+
+.playerDetail__headerTitle {
+    font-weight: 500;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    margin-left: 20px;
+}
+
+hr {
+    margin-top: 2vh;
+}
+
+.playerDetail__infoContent {
+    background-color: white;
+    border: 1px solid #E1E1E1;
+    margin-top: 2vh;
+    display: flex;
+    padding: 40px;
+}
+
+.playerDetail__infoPhoto {
+    background-color: rgb(243, 240, 240);
+    height: fit-content;
+    width: fit-content;
+}
+
+.playerDetail__infoPhoto img {
+    width: 150px;
+}
+
+.playerDetail__infoStats {
+    margin-left: 3vw;
+}
+
+.playerDetail__infoStatRow {
+    margin-bottom: 1vh;
+}
+
+.--marginTop {
+    margin-top: 10px;
+}
+
+.--foot {
+    display: flex;
+}
+
+.playerDetail__infoBold {
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    line-height: 1;
+    color: #343a40;
+}
+
+.playerDetail__infoRegular {
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    line-height: 1;
+    color: #35ad79;
+    margin-left: 10px;
+}
+
+.playerDetail__infoRegular img {
+    width: 40px;
+}
+
+.playerDetail__infoRegular i {
+    color: #d6b10c;
+}
+
+.playerDetail__position {
+    width: 35%;
+}
+
+.playerDetail__positionContent {
+    background-color: white;
+    border: 1px solid #E1E1E1;
+    margin-top: 2vh;
+    padding: 20px;
+    text-align: center;
+}
+
+.playerDetail__positionPhoto {
+    margin-top: 2vh;
+}
+
+.playerDetail__positionPhoto img {
+    width: 200px;
+    height: 280px;
+}
+
+.playerDetail__ratings {
+    margin-top: 5vh;
+}
+
+.playerDetail__ratingContent {
+    background-color: white;
+    border: 1px solid #E1E1E1;
+    margin-top: 2vh;
+    padding: 20px;
+}
+
+.playerDetail__ratingRow {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1vh;
+}
+
+.playerDetail__ratingSpan {
+    border: 1px solid #35ad79;
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px 20px;
+    width: 10%;
+    color: #35ad79;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.playerDetail__ratingSpan:hover {
+    background-color: #35ad79;
+    color: white;
+}
+
+.playerDetail__history {
+    margin-top: 5vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.playerDetail__ratingHistory {
+    width: 30%;
+}
+
+.playerDetail__ratingHistoryContent {
+    background-color: white;
+    border: 1px solid #E1E1E1;
+    margin-top: 2vh;
+    padding: 20px;
+}
+
+.playerDetail__ratingHistoryItem {
+    display: flex;
+    justify-content: space-between;
+}
+
+.playerDetail__ratingHistoryItem i {
+    color: #d6b10c;
+    margin-top: 1vh;
+}
+
+.playerDetail__ratingHistoryItem a {
+    text-decoration: none;
+    color: #367BFF;
+    transition: 0.5s;
+    font-weight: 500;
+}
+
+.playerDetail__ratingHistoryItem a:hover {
+    color: #237251;
+}
+
+.playerDetail__matchHistory {
+    width: 65%;
+}
+
+.playerDetail__matchHistoryContent {
+    background-color: white;
+    border: 1px solid #E1E1E1;
+    margin-top: 2vh;
+}
+
+.playerDetail__matchHistoryContentHeading {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background-color: #36AD79;
+    color: white;
+}
+
+.playerDetail__matchHistoryHeadSpan {
+    width: 20%;
+}
+
+.playerDetail__matchHistoryContentItem {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #E1E1E1;
+    padding: 20px 50px;
+    transition: 0.5s;
+}
+
+.playerDetail__matchHistoryContentItem:hover {
+    background-color: #eeecec;
+}
+
+.playerDetail__matchHistoryItemSpan {
+    width: 20%;
+    color: #35ad79;
+}
+
+.playerDetail__matchHistoryItemSpan i {
+    color: #d6b10c;
+}
+
+.playerDetail__matchHistoryItemSpan a {
+    text-decoration: none;
+    color: #367BFF;
+    transition: 0.5s;
+    font-weight: 500;
+}
+
+.playerDetail__matchHistoryItemSpan a:hover {
+    color: #237251;
+}
+
+.playerDetail__highlights {
+    margin-top: 5vh;
+    width: 100%;
+}
+
+.playerDetail__highlightsContent {
+    background-color: white;
+    border: 1px solid #E1E1E1;
+    margin-top: 2vh;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.playerDetail__highlightsContentRow {
+    display: flex;
+    justify-content: space-between;
+}
+
+.playerDetail__highlightsContentRowItem {
+    width: 30%;
+    text-align: center;
+    background-color: rgb(240, 238, 238);
+    border: 2px solid #E1E1E1;
+    padding: 10px;
+    transition: 0.5s;
+}
+
+.playerDetail__highlightsContentRowItem:hover {
+    background-color: rgb(211, 209, 209);
+}
+
+.playerDetail__highlightsContentRowItem video {
+    width: 100%;
+    height: fit-content;
+    border-radius: 20px;
+}
+
+.playerDetail__highlightsContentRowItemInfoRow a {
+    color: #367BFF;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.playerDetail__highlightsContentRowItemInfoRow a:hover {
+    color: #237251;
+}
+
+.playerDetail__highlightsContentRowItemInfoRowSpanRegular {
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    line-height: 1;
+    color: #35ad79;
+}
+
+.playerDetail__highlightsContentRowItemInfoRowSpanBold {
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    line-height: 1;
+    color: #343a40;
+}
+
+.playerDetail__squad {
+    margin-top: 5vh;
+}
+
+.playerDetail__squadContent {
+    background-color: white;
+    border: 1px solid #E1E1E1;
+    margin-top: 2vh;
+}
+
+.playerDetail__squadHeading {
+    background-color: #35ad79;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 60px;
+}
+
+.playerDetail__squadHeading a {
+    width: 10%;
+}
+
+.playerDetail__squadHeadSpan img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.playerDetail__squadItem {
+    display: flex;
+    justify-content: space-between;
+    transition: 0.5s;
+    border-bottom: 1px solid #E1E1E1;
+    padding: 10px 60px;
+}
+
+.playerDetail__squadItem:hover {
+    background-color: #eeecec;
+}
+
+.playerDetail__squadItem a {
+    width: 10%;
+    text-decoration: none;
+}
+
+.--link {
+    color: #367BFF;
+    transition: 0.5s;
+    font-weight: 500;
+}
+
+.--link img {
+    transition: 0.5s;
+}
+
+.--link:hover {
+    color: #237251;
+}
+
+.--link:hover img {
+    opacity: 70%;
+}
+
+.--none {
+    opacity: 0%;
+}
+
+.--green {
+    color: #35ad79;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 767px) {
+    .playerDeatil {
+        width: 94%;
+        padding: 15vh 0;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .playerDetail__player {
+        flex-direction: column;
+    }
+
+    .playerDetail__info {
+        width: 100%;
+    }
+
+    .playerDetail__infoStats {
+        margin-left: 0vw;
+    }
+
+    .playerDetail__infoContent {
+        flex-direction: column;
+    }
+
+    .playerDetail__position {
+        width: 100%;
+        margin-top: 5vh;
+    }
+
+    .playerDetail__ratingRow {
+        flex-direction: column;
+    }
+
+    .playerDetail__ratingSpan {
+        width: 90%;
+        margin-top: 1vh;
+    }
+
+    .playerDetail__history {
+        flex-direction: column;
+    }
+
+    .playerDetail__ratingHistory {
+        width: 100%;
+        font-size: 0.8rem;
+    }
+
+    .playerDetail__matchHistory {
+        width: 100%;
+        font-size: 0.8rem;
+        margin-top: 5vh;
+    }
+
+    .playerDetail__highlightsContent {
+        padding: 10px;
+    }
+
+    .playerDetail__highlightsContentRow {
+        flex-direction: column;
+    }
+
+    .playerDetail__highlightsContentRowItem {
+        width: 94%;
+        margin-top: 1vh;
+    }
+
+    .playerDetail__matchHistoryContentHeading {
+        padding: 10px;
+    }
+
+    .playerDetail__matchHistoryContentItem {
+        padding: 10px;
+    }
+
+    .--mobile {
+        width: 25%;
+    }
+
+    .playerDetail__squadContent {
+        font-size: 0.8rem;
+    }
+
+    .playerDetail__squadHeading {
+        padding: 10px;
+    }
+
+    .playerDetail__squadHeadSpan img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .playerDetail__squadItem {
+        padding: 10px;
+    }
+}
