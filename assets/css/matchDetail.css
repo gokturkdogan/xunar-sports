@@ -350,3 +350,7 @@ hr {
 .matchDetail__coach i{
     margin-right: 10px;
 }
+
+.matchDetail__photo {
+    max-width: 100%;
+}
